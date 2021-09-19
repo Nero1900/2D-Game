@@ -1,0 +1,8 @@
+lastHit = new Date().getTime(); die Milisekunden seit dem 01.01.1970
+
+timepassed = new Date().getTime() - lastHit vergangene zeit seit dem lezten Hit bzw. lastHit
+
+timepassed = timepassed/1000 Zeit in Sekunden
+
+Return timepassed < 1 // Wenn der letze hit weniger als 1 sekunde vorbei ist spiel die Grafik ab bzw. Spiel die Grafik 1 sekunde ab
+
